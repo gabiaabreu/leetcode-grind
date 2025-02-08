@@ -1,3 +1,5 @@
+package two_pointers;
+
 import java.util.HashMap;
 
 public class RemoveDuplicates_26 {
@@ -10,8 +12,8 @@ public class RemoveDuplicates_26 {
         System.out.println(response);
     }
 
+    // two pointers
     public static int removeDuplicates(int[] nums) {
-        // remove duplicates in-place and return the number of unique elements
         var numMap = new HashMap<Integer, Integer>();
 
         int p1 = 0;
